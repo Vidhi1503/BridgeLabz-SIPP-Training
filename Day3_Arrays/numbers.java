@@ -1,7 +1,7 @@
 package Day3_Arrays;
 
 import java.util.*;
-class Q1 {
+class numbers {
   public static void main(String[] a) {
     Scanner s = new Scanner(System.in);
     int[] n = new int[5];
