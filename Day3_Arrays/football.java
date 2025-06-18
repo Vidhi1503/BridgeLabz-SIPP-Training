@@ -1,7 +1,7 @@
 package Day3_Arrays;
 
 import java.util.*;
-class Q2 {
+class football {
   public static void main(String[] a) {
     Scanner s = new Scanner(System.in);
     double[] h = new double[11];
