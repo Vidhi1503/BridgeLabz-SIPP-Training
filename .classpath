@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry excluding="Day2_Control Flows/|Day1_Object Oriented Programming Fundamental/|Day1_Programming_Elements/" kind="src" path=""/>
-	<classpathentry kind="src" path="Day1_Object Oriented Programming Fundamental"/>
-	<classpathentry kind="src" path="Day1_Programming_Elements"/>
-	<classpathentry kind="src" path="Day2_Control Flows"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
