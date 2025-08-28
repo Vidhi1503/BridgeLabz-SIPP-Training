@@ -1,0 +1,11 @@
+Class Member
+    Attributes: name, id, membershipDate
+    Method: isValid()
+        if currentDate - membershipDate <= 1 year
+            return true
+        else return false
+
+Main:
+    create Member("Vidhi",101,"2024-08-01")
+    if member.isValid() → print "Membership active"
+    else → print "Expired"
