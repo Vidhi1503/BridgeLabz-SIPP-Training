@@ -1,0 +1,20 @@
+Code.Day_1;
+
+Class Pet
+    Attributes: name, age
+    Constructor(name, age);
+
+Class Dog extends Pet
+    Constructor(name, age);
+
+Class Cat extends Pet
+    Constructor(name, age);
+
+Class Bird extends Pet
+    Constructor(name, age);
+
+Main:
+    create Dog("Tommy",2);
+    create Cat("Kitty",1);
+    create Bird("Mithu",3);
+    print details;
