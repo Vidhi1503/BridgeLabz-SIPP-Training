@@ -1,0 +1,14 @@
+Stack undoStack
+
+Function write(text):
+    push text to undoStack
+
+Function undo():
+    if undoStack not empty
+        remove last text
+    else print "Nothing to undo"
+
+Main:
+    write("Hello")
+    write("World")
+    undo() → removes "World"
