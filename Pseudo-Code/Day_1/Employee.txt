@@ -1,0 +1,8 @@
+Class Employee
+    Attributes: name, dept, salary
+
+ArrayList<Employee> list
+Add employees with different departments
+
+Use stream filter where dept == "IT"
+print all IT employees
