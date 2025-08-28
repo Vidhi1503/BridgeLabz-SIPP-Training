@@ -1,7 +1,7 @@
 package Day3_Java_Streams;
 
 import java.io.*;
-class DataStreamDemo {
+class DataStream {
     public static void main(String[] a)throws Exception {
         try(DataOutputStream out=new DataOutputStream(new FileOutputStream("student.dat"))){
             out.writeInt(101); out.writeUTF("Vidhi"); out.writeDouble(9.1);
