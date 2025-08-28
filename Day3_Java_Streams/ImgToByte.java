@@ -1,3 +1,5 @@
+package Day3_Java_Streams;
+
 import java.io.*;
 class ImgToByte {
     public static void main(String[] a)throws Exception {
