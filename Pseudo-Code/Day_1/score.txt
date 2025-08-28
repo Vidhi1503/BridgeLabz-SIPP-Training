@@ -1,0 +1,6 @@
+HashMap<String,Integer> scores
+
+Add ("Anmol",90), ("Vidhi",95), ("Leshika",80)
+
+Use stream to find max by value
+print "Topper = Vidhi : 95"
