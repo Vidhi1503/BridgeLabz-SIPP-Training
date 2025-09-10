@@ -1,0 +1,23 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserRegistration {
+    void registerUser(String username, String email, String password) {
+        if (username.isEmpty() || !email.contains("@") || password.length() < 6)
+            throw new IllegalArgumentException("Invalid input");
+    }
+}
+
+class UserRegistrationTest {
+    @Test
+    void testValidUser() {
+        new UserRegistration().registerUser("Vidhi", "vidhi@mail.com", "secret1");
+    }
+
+    @Test
+    void testInvalidUser() {
+        assertThrows(IllegalArgumentException.class,
+            () -> new UserRegistration().registerUser("", "invalid", "123"),
+            "Invalid user should throw exception");
+    }
+}
