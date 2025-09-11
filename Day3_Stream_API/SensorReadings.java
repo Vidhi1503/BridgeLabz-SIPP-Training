@@ -1,6 +1,6 @@
 package Day3_Stream_API;
 
-import java.util.*;import java.util.stream.*;
+import java.util.*;
 public class SensorReadings{
   public static void main(String[]a){
     List<Integer>r=Arrays.asList(45,70,30,90);
