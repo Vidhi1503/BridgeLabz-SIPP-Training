@@ -8,8 +8,6 @@ public class HospitalAlerts {
             "Info: BP Check", 
             "Critical: Oxygen"
         );
-
-        // Correct predicate: match strings starting with "Critical"
         Predicate<String> onlyCritical = a -> a.startsWith("Critical");
         alerts.stream().filter(onlyCritical).forEach(System.out::println);
     }
